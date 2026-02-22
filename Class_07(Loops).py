@@ -9,18 +9,23 @@
 #While loop
 #While loop is used to execute a block of code repeatedly until a condition is met.
 
+#while condition
+  #body
+
 #Practice 1: While loop
 a = 10
 while a >= 0:
     a -= 1
-    print(a)
+    print("a")
 
 #Practice 2: While loop with condition
 count = 4
-while count < 5:
+while count <= 5:
    print(count)
    count += 1    
-
+ 
+#Variable is called iterators. 
+#And run the loop is called the iteration.
 
 
 #Some are the examples of loops in Python
