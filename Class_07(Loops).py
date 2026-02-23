@@ -12,7 +12,7 @@
 #while condition
   #body
 
-#Practice 1: While loop
+#0Practice 1: While loop
 a = 10
 while a >= 0:
     a -= 1
@@ -45,3 +45,9 @@ for i in range(10):
     if i % 2 == 0:
         print(i)
 
+#Break Function:
+# It is used to terminate the loop when encountered.
+
+#Continue Function:
+# It terminates execution in the current iteration & conitinues
+# execution of the loop with the next iteration. 
