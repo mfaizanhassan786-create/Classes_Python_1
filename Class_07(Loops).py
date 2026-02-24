@@ -48,6 +48,39 @@ for i in range(10):
 #Break Function:
 # It is used to terminate the loop when encountered.
 
+#Program1:
+i = 1
+while i<=5:
+    print(i)
+    if(i==3):
+        break
+    i+=1
+
+
+#Program2:
+
+nums = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 36)
+x = 36
+
+i =0 
+while i < len(nums):
+    if(nums[i] == x):
+        print("Found At idx", i)
+        break
+    else:
+        print("Finding..")
+    i += 1
+
+print("End of Loop")        
+
 #Continue Function:
 # It terminates execution in the current iteration & conitinues
-# execution of the loop with the next iteration. 
+# execution of the loop with the next iteration.  
+
+i = 0
+while i <= 5:
+    if(i == 3):
+        i +=1
+        continue #skip
+    print(i)
+    i+= 1
