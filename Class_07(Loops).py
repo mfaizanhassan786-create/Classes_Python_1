@@ -86,3 +86,10 @@ while i <= 5:
     i+= 1
 
 print("All is done")    
+
+
+#For Loops:
+
+marks = ["250", "260", "270", "300"]
+for val in marks:
+    print(val)
