@@ -84,3 +84,5 @@ while i <= 5:
         continue #skip
     print(i)
     i+= 1
+
+print("All is done")    
