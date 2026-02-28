@@ -93,3 +93,4 @@ print("All is done")
 marks = ["250", "260", "270", "300"]
 for val in marks:
     print(val)
+print("All done")         
